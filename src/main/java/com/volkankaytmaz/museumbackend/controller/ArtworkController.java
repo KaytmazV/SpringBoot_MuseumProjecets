@@ -26,4 +26,8 @@ public class ArtworkController {
     public ArtWork getArtworkById(@PathVariable Long id) {
         return artworkService.getArtworkById(id);
     }
+    @PostMapping
+    public ArtWork createArtWork(@RequestBody ArtWork artWork) {
+        return artworkService.createArtWork(artWork);
+    }
 }

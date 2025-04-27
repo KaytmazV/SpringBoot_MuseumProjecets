@@ -18,7 +18,9 @@ private final ArtworkRepository artworkRepository;
     public List<ArtWork> getAllArtworks() {
         return artworkRepository.findAll();
     }
-
+    public ArtWork createArtWork(ArtWork artWork) {
+        return artworkRepository.save(artWork);
+    }
     public ArtWork getArtworkById(Long id) {
         return artworkRepository.findById(id).orElse(null);
     }

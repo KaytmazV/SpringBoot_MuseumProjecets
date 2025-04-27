@@ -1,11 +1,5 @@
 package com.volkankaytmaz.museumfrontend.model;
 
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
 public class ArtWork {
 
     private Long id;
@@ -13,6 +7,11 @@ public class ArtWork {
     private String description;
     private String audioUrl;
 
+    // Parametresiz yapıcı
+    public ArtWork() {
+    }
+
+    // Parametreli yapıcı
     public ArtWork(Long id, String name, String description, String audioUrl) {
         this.id = id;
         this.name = name;
@@ -30,7 +29,7 @@ public class ArtWork {
     }
 
     public String getName() {
-        return name;  // Buradaki metodu eklemeyi unutmayın!
+        return name;
     }
 
     public void setName(String name) {
@@ -53,8 +52,3 @@ public class ArtWork {
         this.audioUrl = audioUrl;
     }
 }
-
-
-
-
-
