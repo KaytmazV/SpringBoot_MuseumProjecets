@@ -1,6 +1,6 @@
-package com.volkankaytmaz.museumproject.repository;
+package com.volkankaytmaz.museumbackend.repository;
 
-import com.volkankaytmaz.museumproject.entity.ArtWork;
+import com.volkankaytmaz.museumbackend.entity.ArtWork;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ArtworkRepository extends JpaRepository<ArtWork, Long> {

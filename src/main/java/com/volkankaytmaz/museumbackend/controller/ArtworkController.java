@@ -1,8 +1,8 @@
-package com.volkankaytmaz.museumproject.controller;
+package com.volkankaytmaz.museumbackend.controller;
 
 
-import com.volkankaytmaz.museumproject.entity.ArtWork;
-import com.volkankaytmaz.museumproject.service.ArtworkService;
+import com.volkankaytmaz.museumbackend.entity.ArtWork;
+import com.volkankaytmaz.museumbackend.service.ArtworkService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

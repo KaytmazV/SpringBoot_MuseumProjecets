@@ -1,7 +1,7 @@
-package com.volkankaytmaz.museumproject.service;
+package com.volkankaytmaz.museumbackend.service;
 
-import com.volkankaytmaz.museumproject.entity.ArtWork;
-import com.volkankaytmaz.museumproject.repository.ArtworkRepository;
+import com.volkankaytmaz.museumbackend.entity.ArtWork;
+import com.volkankaytmaz.museumbackend.repository.ArtworkRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

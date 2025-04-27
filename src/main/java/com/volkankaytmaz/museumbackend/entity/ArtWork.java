@@ -1,4 +1,4 @@
-package com.volkankaytmaz.museumproject.entity;
+package com.volkankaytmaz.museumbackend.entity;
 
 
 import jakarta.persistence.Entity;
